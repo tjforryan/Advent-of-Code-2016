@@ -1,0 +1,29 @@
+{
+  "name": "Advent-of-Code-2016",
+  "version": "0.0.1",
+  "description": "My Advent of Code 2016 solutions",
+  "author": "Tom",
+  "contributors": [
+    {
+      "name": "Tom Forryan",
+      "email": "tjforryan@yahoo.co.uk"
+    }
+  ],
+  "bin": {},
+  "scripts": {
+    "test": "gulp unitTests"
+  },
+  "keywords": [
+    "advent",
+    "code",
+    "2016"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "~3.9.0",
+    "gulp-mocha": "~2.2.0"
+  },
+  "private": true,
+  "analyze": true
+}
