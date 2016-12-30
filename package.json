@@ -11,7 +11,7 @@
   ],
   "bin": {},
   "scripts": {
-    "test": "gulp unitTests"
+    "test": "gulp unitTests --day $DAY --part $PART"
   },
   "keywords": [
     "advent",
@@ -24,7 +24,8 @@
   "devDependencies": {
     "chai": "~3.5.0",
     "gulp": "~3.9.0",
-    "gulp-mocha": "~2.2.0"
+    "gulp-mocha": "~2.2.0",
+    "yargs": "^6.5.0"
   },
   "private": true,
   "analyze": true
