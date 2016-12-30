@@ -4,7 +4,7 @@ var argv = require('yargs').argv;
 
 gulp.task('unitTests', function () {
   const day = argv.day !== true ? `day_${argv.day}` : '**';
-  const part = argv.part !== true ? `day_${argv.day}_${argv.part}.test` : '*';
+  const part = argv.part !== true && argv.day !== true ? `day_${argv.day}_${argv.part}.test` : '*';
 
   console.log('PATH: ', `./tests/${day}/${part}.js`)
 
