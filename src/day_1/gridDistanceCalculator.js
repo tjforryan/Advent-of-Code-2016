@@ -24,7 +24,7 @@ const compassDirections = {
     axis: 'x',
     multiplier: -1
   }
-}
+};
 
 const turningDirections = {
   LEFT: 'LEFT',
